@@ -15,7 +15,7 @@ namespace NewApi.Controllers
 {
     public class StudentsController : ApiController
     {
-        private KuznecovaAndroid43PEntities db = new KuznecovaAndroid43PEntities();
+        private KuznecovaAndroid43PEntitiess db = new KuznecovaAndroid43PEntitiess();
 
         // GET: api/Students
 

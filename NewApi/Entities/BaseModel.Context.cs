@@ -13,10 +13,10 @@ namespace NewApi.Entities
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class KuznecovaAndroid43PEntities : DbContext
+    public partial class KuznecovaAndroid43PEntitiess : DbContext
     {
-        public KuznecovaAndroid43PEntities()
-            : base("name=KuznecovaAndroid43PEntities")
+        public KuznecovaAndroid43PEntitiess()
+            : base("name=KuznecovaAndroid43PEntitiess")
         {
         }
     

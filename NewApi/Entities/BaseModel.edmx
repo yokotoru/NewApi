@@ -31,7 +31,7 @@
           <Property Name="Surname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="Image" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
         </EntityType>
-        <EntityContainer Name="KuznecovaAndroid43PEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="KuznecovaAndroid43PEntitiess" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Student" EntityType="Self.Student" />
         </EntityContainer>
       </Schema>
@@ -39,7 +39,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="Хранилище KuznecovaAndroid43PModelContainer" CdmEntityContainer="KuznecovaAndroid43PEntities">
+        <EntityContainerMapping StorageEntityContainer="Хранилище KuznecovaAndroid43PModelContainer" CdmEntityContainer="KuznecovaAndroid43PEntitiess">
           <EntitySetMapping Name="Student">
             <EntityTypeMapping TypeName="KuznecovaAndroid43PModel.Student">
               <MappingFragment StoreEntitySet="Student">
